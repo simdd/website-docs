@@ -1,0 +1,180 @@
+{
+  "lang": {
+    "title": "语言",
+    "en": "English",
+    "zh": "简体中文",
+    "ja": "日本語",
+    "cannotswitchEn": "本页面暂无英文版",
+    "cannotswitchZh": "本页面暂无中文版",
+    "cannotswitchJa": "本页面暂无日文版"
+  },
+  "meta": {
+    "title": "TiDB 文档中心",
+    "description": "欢迎来到 TiDB 文档中心！我们为您提供了丰富的操作指南和详实的参考资料，助您轻松上手 TiDB 产品，顺利完成数据迁移和基于数据库的应用开发等操作。",
+    "archive-title": "TiDB 归档文档站",
+    "archive-description": "访问 TiDB 数据库的归档文档。"
+  },
+  "navbar": {
+    "home": "文档中心",
+    "archive-home": "归档文档中心",
+    "archive-label": "归档文档",
+    "tidb": "TiDB",
+    "tools": "生态工具",
+    "appdev": "开发指南",
+    "asktug": "社区",
+    "download": "免费试用",
+    "contactUs": "联系我们",
+    "searchDocs": "搜索文档",
+    "playground": "Playground",
+    "learningCenter": "Learning center",
+    "onsiteSearch": "站内搜索",
+    "googleSearch": "Google 搜索",
+    "bingSearch": "Bing 搜索"
+  },
+  "footer": {
+    "privacy": "隐私政策",
+    "legal": "安全合规"
+  },
+  "doc": {
+    "notExist": "此文档不存在",
+    "toc": "本页导航",
+    "download-pdf": "下载 PDF",
+    "improve": "修改本文",
+    "feedback": "文档反馈",
+    "feedbackAskTug": "社区交流",
+    "latestCommit": "更新于",
+    "deprecation": {
+      "tidb": {
+        "firstContext": "你正在查看 TiDB 数据库的较旧版本 (TiDB {{ curDocVersion }}) 的文档。",
+        "secondContext": "如无特殊需求，建议使用 TiDB 数据库的<0>最新 LTS 版本</0>。"
+      },
+      "tidb-in-kubernetes": {
+        "firstContext": "你正在查看 TiDB Operator 工具的较旧主版本 (TiDB Operator {{ curDocVersion }}) 的文档。",
+        "secondContext": "TiDB Operator {{ stableVersion }} 是 TiDB Operator 的最新稳定主版本，如无特殊需求，建议使用该版本。点击<0>此处</0>查看 TiDB Operator {{ stableVersion }} 文档。"
+      },
+      "tidb-data-migration": {
+        "firstContext": "你正在查看 TiDB Data Migration 工具的较旧主版本 (TiDB Data Migration {{ curDocVersion }}) 的文档。",
+        "secondContext": "TiDB Data Migration {{ stableVersion }} 是 TiDB Data Migration 的最新稳定主版本，如无特殊需求，建议使用该版本。点击<0>此处</0>查看 TiDB Data Migration {{ stableVersion }} 文档。"
+      }
+    },
+    "dmr": {
+      "tidb": {
+        "firstContext": "你正在查看 TiDB {{ curDocVersion }} (<0>DMR</0>) 的文档。PingCAP 不提供基于 {{ curDocVersion }} 的 bug 修复版本，如有 bug，会在后续版本中修复。",
+        "secondContext": "如无特殊需求，建议使用 TiDB 数据库的<0>最新 LTS 版本</0>。"
+      }
+    },
+    "archive": {
+      "tidb": "你正在查看 TiDB 数据库的归档文档，归档文档不再提供任何更新。如无特殊需求，建议使用 TiDB 数据库的<0>最新 LTS 版本</0>。"
+    },
+    "playgroundDesc": "One-stop & interactive experience of TiDB's capabilities WITHOUT registration.",
+    "new": "New"
+  },
+  "shortcodes": {
+    "note": "注意",
+    "warning": "警告",
+    "tip": "小贴士",
+    "error": "错误",
+    "important": "重要"
+  },
+  "syntaxDiagram": {
+    "syntaxDiagram": "语法图",
+    "ebnf": "代码"
+  },
+  "search": {
+    "type": "分类：",
+    "version": "版本：",
+    "resultTips": {
+      "counts": "共 {{ counts }} 条搜索结果...",
+      "title": "很抱歉，我们没有找到您期望的内容。",
+      "content1": "请尝试使用其他关键词再次搜索。",
+      "content2": "如果您无法找到需要的内容，请尝试前往 <0>AskTUG (TiDB User Group)</0> 进行提问。"
+    },
+    "searchTip": "使用半角双引号进行精确搜索。例如，\"time_zone\"。"
+  },
+  "tools": {
+    "tidbOperator": {
+      "type": "TiDB Operator",
+      "desc": "TiDB Operator 是 Kubernetes 上的 TiDB 集群自动运维系统，提供包括部署、升级、扩缩容、备份恢复、配置变更的 TiDB 全生命周期管理。借助 TiDB Operator，TiDB 可以无缝运行在公有云或私有部署的 Kubernetes 集群上。"
+    },
+    "tidbDataMigration": {
+      "type": "TiDB Data Migration",
+      "desc": "TiDB Data Migration (DM) 是一体化的数据同步任务管理平台，支持从 MySQL 或 MariaDB 到 TiDB 的全量数据迁移和增量数据同步。使用 DM 工具有利于简化错误处理流程，降低运维成本。"
+    },
+    "databaseTools": {
+      "type": "TiDB 数据库工具",
+      "desc": "TiDB 数据库工具是处理 TiDB 导入导出数据的命令行实用程序的集合，包括全量导出工具 Dumpling、全量导入工具 TiDB Lightning、备份恢复工具 BR、增量同步工具 TiCDC、校验工具 sync-diff-inspector 等。"
+    },
+    "tiup": {
+      "type": "TiUP",
+      "desc": "TiUP 承担着包管理器的角色，管理着 TiDB 生态下众多的组件，如 TiDB、PD、TiKV 等。用户想要运行 TiDB 生态中任何组件时，只需要执行 TiUP 一行命令即可，相比以前，极大地降低了管理难度。"
+    }
+  },
+  "docHelpful": {
+    "header": "文档内容是否有帮助？",
+    "thumbUp": "是",
+    "thumbDown": "否"
+  },
+  "docFeedbackSurvey": {
+    "action": {
+      "submit": "提交",
+      "skip": "跳过"
+    },
+    "message": {
+      "thank": "感谢您的宝贵意见！"
+    },
+    "positive": {
+      "title": "谢谢！您喜欢文档的原因是？",
+      "easy": "容易理解",
+      "solvedProblem": "解决了我的问题",
+      "helpToDecide": "帮助我决定使用该产品",
+      "other": "其他原因"
+    },
+    "negative": {
+      "title": "您不喜欢文档的原因是？",
+      "hard": "难以理解",
+      "nothingFound": "找不到我想要的信息",
+      "inaccurate": "内容不准确或过时",
+      "sampleError": "代码示例错误",
+      "other": "其他原因"
+    }
+  },
+  "doc404": {
+    "title": "抱歉，您要找的页面走丢了…",
+    "youMayWish": "您可以：",
+    "goToDocHome": "去 <0>文档中心</0>",
+    "searchDoc": "搜索文档"
+  },
+  "fab": {
+    "scrollToTop": "回到顶部",
+    "goToFeedback": "文档内容是否有帮助？"
+  },
+  "releaseSubscription": {
+    "title": "订阅 LTS 版本更新：",
+    "placeholder": "邮箱地址",
+    "button": {
+      "subscribe": "订阅",
+      "subscribing": "订阅中..."
+    },
+    "error": {
+      "invalidEmail": "无效邮箱地址。",
+      "networkError": "网络错误，请稍后重试。"
+    },
+    "success": "感谢订阅！当新的 LTS 版本发布时，我们会通过邮件通知您。"
+  },
+  "banner": {
+    "docDash2024": {
+      "link": "https://asktug.com/t/topic/1019364",
+      "title": "2024 TiDB 文档挑战赛",
+      "date": "1/9 - 1/12",
+      "intro": "提 PR 或 Issue 来赢取 Bose 耳机、机械键盘等奖品吧！"
+    }
+  },
+  "campaign": {
+    "docSurvey": {
+      "link": "https://pingcap.feishu.cn/share/base/form/shrcnHSzhZvFgUHMeW8J0rFMmJC",
+      "title": "文档满意度调查",
+      "content": "我们一起让 TiDB 文档变得更好！",
+      "action": "立即参与"
+    }
+  }
+}

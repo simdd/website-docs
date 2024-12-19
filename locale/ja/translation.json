@@ -1,0 +1,159 @@
+{
+  "lang": {
+    "title": "言語",
+    "en": "English",
+    "zh": "简体中文",
+    "ja": "日本語",
+    "cannotswitchEn": "このページは英語ではご利用いただけません",
+    "cannotswitchZh": "このページは中国語ではご利用いただけません",
+    "cannotswitchJa": "このページは日本語ではご利用いただけません",
+    "cannotswitchtocloudJa": "TiDB Cloud 日本語ドキュメントは現在利用できません",
+    "cannotswitchtocloudZh": "TiDB Cloud 中国語ドキュメントは現在利用できません",
+    "machineTransNotice": "このページは英語版のページを機械翻訳しています。原文は<0>こちら</0>からご覧ください。"
+  },
+  "meta": {
+    "title": "TiDB Docs",
+    "description": "Explore the how-to guides and references you need to use TiDB Cloud and TiDB, migrate data, and build your applications on the database.",
+    "archive-title": "TiDB Archived Docs",
+    "archive-description": "Access the archived documentation of the TiDB database."
+  },
+  "navbar": {
+    "home": "Home",
+    "archive-home": "Archived Docs Home",
+    "archive-label": "Archived Docs",
+    "tidb": "TiDB Self-Managed",
+    "tools": "ツール",
+    "cloud": "TiDB Cloud",
+    "appdev": "アプリ開発",
+    "asktug": "Forum",
+    "download": "無料ウェビナー",
+    "contactUs": "お問い合わせ",
+    "searchDocs": "ドキュメントを検索",
+    "playground": "Playground",
+    "learningCenter": "Learning Center"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "legal": "Legal"
+  },
+  "doc": {
+    "notExist": "このドキュメントは存在しません",
+    "toc": "このページの内容",
+    "download-pdf": "PDFをダウンロード",
+    "improve": "このページを編集",
+    "feedback": "ドキュメントの変更をリクエストする",
+    "latestCommit": "最終更新日",
+    "deprecation": {
+      "tidb": {
+        "firstContext": "古いバージョンの TiDB データベース (TiDB {{ curdocVersion }}) のドキュメントを表示しています。",
+        "secondContext": "TiDBデータベースの<0>最新の安定バージョン</0>を使用することをお勧めします。"
+      },
+      "tidb-in-kubernetes": {
+        "firstContext": "古いメジャーバージョンの TiDB Operator ツール (TiDB Operator {{ curdocVersion }}) のドキュメントを表示しています。",
+        "secondContext": "TiDB Operator {{ stableVersion }} は TiDB Operator の最新のメジャーバージョンであり、安定しており、一般的な使用に推奨されています。TiDB Operator {{ stableVersion }} のこのページを表示するには、<0>ここをクリックしてください</0>"
+      },
+      "tidb-data-migration": {
+        "firstContext": "古いメジャーバージョンの TiDB Data Migration ツール (TiDB Data Migration {{ curdocVersion }}) のドキュメントを表示しています。",
+        "secondContext": "TiDB Data Migration {{ stableVersion }} は、TiDB Data Migration の最新メジャーバージョンであり、現在安定しており、一般的な使用に推奨されています。TiDB Data Migration {{ stableVersion }} のこのページを表示するには、<0>ここをクリックしてください</0>。"
+      }
+    },
+    "dmr": {
+      "tidb": {
+        "firstContext": "TiDB {{ curDocVersion }} (<0>DMR</0>) のドキュメントを表示しています。PingCap は {{ curDocVersion }} のバグ修正を提供していません。バグは将来のリリースで修正される予定です。",
+        "secondContext": "一般的な目的では、TiDBデータベースの<0>最新の安定バージョン</0>を使用してください。"
+      }
+    },
+    "archive": {
+      "tidb": "現在表示されているページは、TiDBのアーカイブされたドキュメント (非更新) です。TiDBをご利用の場合、<0>最新のLTS (Long Term Support) バージョン</0>の使用を推奨します。"
+    },
+    "playgroundDesc": "登録なしで TiDB の機能をワンストップでインタラクティブに体験できます。",
+    "new": "新規"
+  },
+  "shortcodes": {
+    "note": "ノート",
+    "warning": "警告",
+    "tip": "ヒント",
+    "error": "エラー",
+    "important": "重要"
+  },
+  "syntaxDiagram": {
+    "syntaxDiagram": "ダイアグラム",
+    "ebnf": "ソース"
+  },
+  "search": {
+    "type": "タイプ:",
+    "version": "バージョン:",
+    "resultTips": {
+      "counts": "{{counts}} 件の結果が見つかりました...",
+      "title": "申し訳ありません。",
+      "content1": "現時点では日本語の検索は提供されていないため、英語と中国語のドキュメントに行ってもう一度試してください。",
+      "content2": "お探しのものが見つからない場合は、<0>Discord Channels</0>がお勧めです。"
+    },
+    "searchTip": "フレーズを正確に検索したい場合に「\"」で囲って利用します。例えば、\"time_zone\"。"
+  },
+  "tools": {
+    "tidbOperator": {
+      "type": "TiDB Operator",
+      "desc": "TiDB Operator は、Kubernetes の TiDB クラスターの自動化された運用および保守システムです。TiDB の完全なライフサイクル管理を提供します。TiDB Operator を使用すると、パブリッククラウドまたはプライベートクラウドにデプロイされた Kubernetes クラスタで TiDB をシームレスに実行できます。"
+    },
+    "tidbDataMigration": {
+      "type": "TiDB Data Migration",
+      "desc": "TiDB Data Migration (DM) は、MySQL または MariaDB から TiDB への完全なデータ移行と増分データ移行をサポートする統合データレプリケーションタスク管理プラットフォームです。運用コストを削減し、トラブルシューティングプロセスを簡素化するのに役立ちます。"
+    },
+    "databaseTools": {
+      "type": "Database Tools",
+      "desc": "TiDB データベースツールは、Dumpling、TiDB Lightning、バックアップと復元 (BR)、TiCDC、同期差分インスペクターなど、TiDB との間で移行するための便利なツールキットのコレクションです。"
+    },
+    "tiup": {
+      "type": "TiUP",
+      "desc": "TiUP は、TiDB、PD、TiKV などの TiDB エコシステム内のコンポーネントを管理するパッケージマネージャーです。一行の TiUP コマンドだけでどのコンポーネントも実行でき、管理がはるかに簡単です。"
+    }
+  },
+  "docHelpful": {
+    "header": "このページは役に立ちましたか？",
+    "thumbUp": "はい",
+    "thumbDown": "いいえ"
+  },
+  "docFeedbackSurvey": {
+    "action": {
+      "submit": "送信",
+      "skip": "スキップ"
+    },
+    "message": {
+      "thank": "貴重なご意見をありがとうございます！"
+    },
+    "positive": {
+      "title": "ありがとうございます！ドキュメントサイト改善のため、フィードバックをお願いします。",
+      "easy": "理解しやすい",
+      "solvedProblem": "問題を解決できた",
+      "helpToDecide": "製品使用を決断するのに役立った",
+      "other": "その他"
+    },
+    "negative": {
+      "title": "ドキュメントサイト改善のため、フィードバックをお願いします。",
+      "hard": "分かりづらい",
+      "nothingFound": "必要なものが見つからなかった",
+      "inaccurate": "不正確または古い情報だった",
+      "sampleError": "コードサンプルがエラーだった",
+      "other": "その他"
+    }
+  },
+  "doc404": {
+    "title": "お探しのページが見つかりません。",
+    "youMayWish": "You may wish to:",
+    "goToDocHome": "Go to <0>Docs Home</0>",
+    "searchDoc": "Search our current documentation"
+  },
+  "fab": {
+    "scrollToTop": "トップへ戻る",
+    "goToFeedback": "このページは役に立ちましたか？"
+  },
+  "campaign": {
+    "docSurvey": {
+      "link": "https://forms.gle/LbWEygumJkc4jAPD7",
+      "title": "フィードバック募集中！",
+      "content": "TiDBドキュメント向上のためご協力をお願いします。",
+      "action": "アンケートへ"
+    }
+  }
+}
